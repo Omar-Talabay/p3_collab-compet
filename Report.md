@@ -14,19 +14,19 @@ The report clearly describes the learning algorithm,
 
 ### hyperparameters
 
-BUFFER_SIZE = int(1e6)  # replay buffer size
+* BUFFER_SIZE = int(1e6)  # replay buffer size
 
-BATCH_SIZE = 256         # minibatch size
+* BATCH_SIZE = 256         # minibatch size
 
-GAMMA = 0.99            # discount factor
+* GAMMA = 0.99            # discount factor
 
-TAU = 1e-3              # for soft update of target parameters
+* TAU = 1e-3              # for soft update of target parameters
 
-LR_ACTOR = 1e-4         # learning rate of the actor 
+* LR_ACTOR = 1e-4         # learning rate of the actor 
 
-LR_CRITIC = 1e-4        # learning rate of the critic
+* LR_CRITIC = 1e-4        # learning rate of the critic
 
-WEIGHT_DECAY = 0        # L2 weight decay
+* WEIGHT_DECAY = 0        # L2 weight decay
 
 ### Model architectures:
 
