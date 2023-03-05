@@ -10,7 +10,9 @@ The core implementation is based on the previous project. The main modifications
 
 # Learning Algorithm
 
-The report clearly describes the learning algorithm,
+The learning algorithm is based on Actor-Critic network reinforcement learning. Two networks are created. The Actor decides which actions to take. The critic tells how good the actions and how to learn given the staes and actions.
+
+Both agents use the same memory buffer and action network to make decisions.
 
 ### hyperparameters
 
