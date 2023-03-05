@@ -12,7 +12,7 @@ The core implementation is based on the previous project. The main modifications
 
 The learning algorithm is based on Actor-Critic network reinforcement learning. Two networks are created. The Actor decides which actions to take. The critic tells how good the actions and how to learn given the staes and actions.
 
-Both agents use the same memory buffer and action network to make decisions.
+Both agents use the same memory buffer and actor network for decision making.
 
 ### hyperparameters
 
@@ -43,6 +43,6 @@ The problem solved in 2048 episodes. The following figure shows the overall scor
 <img src="final_rl_score.png"  width="60%" height="30%">
 
 # Ideas for Future Work
-* studying the effect of different hyper parameters options such as network archeticture and optimization methods.
+* Studying the effect of different hyper parameters options such as network archeticture and optimization methods.
 * Experimenting with different environments such as playing soccer with more than 2 agents.
-* chaingin the replay buffer to be based on priority instead of random samping.
+* Changing the replay buffer to be based on priority instead of random sampling.
