@@ -41,4 +41,6 @@ The problem solved in 2048 episodes. The following figure shows the overall scor
 <img src="final_rl_score.png"  width="60%" height="30%">
 
 # Ideas for Future Work
-The submission has concrete future ideas for improving the agent's performance.
+* studying the effect of different hyper parameters options such as network archeticture and optimization methods.
+* Experimenting with different environments such as playing soccer with more than 2 agents.
+* chaingin the replay buffer to be based on priority instead of random samping.
